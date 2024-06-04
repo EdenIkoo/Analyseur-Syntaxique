@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+
+int main(void){
+	int a,b,c;
+	char d,e,f;
+	d = 'z';
+	a = 1;
+	return a+b+c;
+}

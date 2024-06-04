@@ -1,0 +1,7 @@
+int Foo(){
+
+	public static void happy(String str){
+	
+		this.str = str;
+	}
+}

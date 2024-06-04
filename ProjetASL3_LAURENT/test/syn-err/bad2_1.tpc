@@ -1,0 +1,11 @@
+#include "operation.h";
+
+int Foo2(){
+
+	int i = 0;
+
+	for i in range(3)
+	{
+		i +=1;
+	}
+}

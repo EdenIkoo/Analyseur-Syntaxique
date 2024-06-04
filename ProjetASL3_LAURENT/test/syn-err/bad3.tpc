@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int c = 0;
+
+float Un_float(unsigned long int n) {
+	if (n === 1)
+		return (float)1 ;
+	else
+		return (float)1/n + (Un_float(n-1)) ;
+}
+
+double Un_double(unsigned long int n) {
+	if (n === 1)
+		return (double)1 ;
+	else
+		return (double)1/n + (Un_double(n-1)) ;
+}
+
+int main(int argc, char const *argv[]) {
+	int i, j;
+
+	for (i = 1000; i < 10000000; i+=1000)
+		printf("%f\n", Un_float(i));
+			
+	for (j = 1000; j < 10000000; j+=1000)
+		printf("%f\n", Un_double(j));
+	return 0;
+}
